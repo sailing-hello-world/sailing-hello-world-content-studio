@@ -1,0 +1,27 @@
+{
+  "name": "sailing-hello-world",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Håkon Åmdal <hakon@aamdal.com>",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.140.30",
+    "@sanity/components": "^0.140.30",
+    "@sanity/core": "^0.140.30",
+    "@sanity/default-layout": "^0.140.30",
+    "@sanity/default-login": "^0.140.15",
+    "@sanity/desk-tool": "^0.140.30",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2"
+  },
+  "devDependencies": {}
+}
