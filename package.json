@@ -7,7 +7,8 @@
   "author": "Håkon Åmdal <hakon@aamdal.com>",
   "scripts": {
     "start": "sanity start",
-    "test": "sanity check"
+    "test": "sanity check",
+    "deploy": "sanity deploy"
   },
   "keywords": [
     "sanity"
